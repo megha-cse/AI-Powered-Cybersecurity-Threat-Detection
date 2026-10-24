@@ -65,3 +65,10 @@ Future Improvements
 Author
 
 Megha
+📸 Dashboard Screenshots
+
+1. CyberShield AI Dashboard
+
+2. Normal Traffic Detection
+
+3. Suspicious Traffic Detection
