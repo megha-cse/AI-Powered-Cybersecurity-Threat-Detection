@@ -1,40 +1,67 @@
-# AI-Powered Cybersecurity Threat Detection System
+🛡️ AI-Powered Cybersecurity Threat Detection System
 
-## Project Overview
-This project uses a Machine Learning model to classify network traffic as Normal or Suspicious. It demonstrates how AI can help identify potentially suspicious network activity.
+Overview
 
-## Technologies Used
-- Python
-- Pandas and NumPy
-- Scikit-learn
-- Matplotlib
-- Joblib
+CyberShield AI is a machine-learning-based cybersecurity demonstration project that analyzes network traffic features and classifies records as Normal or Suspicious.
 
-## Features
-- Synthetic network traffic dataset generation
-- Data preprocessing
-- Random Forest classification model
-- Model evaluation using accuracy, precision, recall, and F1-score
-- Detection of normal and suspicious network records
-- Visualizations of model results and feature importance
+Features
 
-## Project Structure
-- `data/` – Generated network traffic dataset
-- `models/` – Saved trained model
-- `outputs/` – Generated graphs
-- `src/` – Python source code
-- `main.py` – Project entry point
-- `requirements.txt` – Required Python libraries
+* Synthetic network traffic dataset generation
+* Random Forest classification model
+* Suspicious activity prediction
+* Model confidence display
+* Confusion matrix visualization
+* Feature importance analysis
+* Interactive Streamlit dashboard
 
-## How to Run
-Run these commands in the VS Code terminal from the project folder:
+Technologies Used
 
-```bash
-python src/data_preprocessing.py
-python src/train_model.py
-python src/detect_threats.py
-python src/visualization.py
-```
+* Python
+* Pandas and NumPy
+* Scikit-learn
+* Matplotlib
+* Streamlit
+* Git and GitHub
 
-## Important Note
-This prototype uses a **synthetic dataset** for demonstration and learning. Its results do not establish real-world cybersecurity detection performance. Testing on a suitable public network-security dataset is needed for real-world evaluation.
+Project Structure
+
+AI-Powered Cybersecurity Threat Detection/
+├── data/
+├── models/
+├── outputs/
+├── src/
+│   ├── data_preprocessing.py
+│   ├── train_model.py
+│   ├── detect_threats.py
+│   └── visualization.py
+├── app.py
+├── main.py
+└── requirements.txt
+
+How to Run
+
+1. Install the required packages:
+    pip install -r requirements.txt
+2. Generate the dataset:
+    python src/data_preprocessing.py
+3. Train the model:
+    python src/train_model.py
+4. Generate visualizations:
+    python src/visualization.py
+5. Launch the dashboard:
+    python -m streamlit run app.py
+
+Dataset Disclaimer
+
+This project currently uses synthetically generated network traffic data for demonstration and educational purposes. Its results do not establish real-world cybersecurity detection performance.
+
+Future Improvements
+
+* Train and evaluate using a suitable public cybersecurity dataset
+* Improve model validation and threat detection
+* Add more traffic features and threat categories
+* Explore real-time monitoring with appropriate network data
+
+Author
+
+Megha
